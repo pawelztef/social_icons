@@ -11,11 +11,22 @@ gemspec
 # your gem to rubygems.org.
 
 # To use a debugger
-gem 'byebug', group: [:development, :test]
+gem 'bootstrap', '~> 4.0.0.beta2.1'
 gem 'cocoon'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jquery-turbolinks'
+gem 'carrierwave'
+gem 'mini_magick'
+gem 'font-awesome-sass', '~> 4.7.0'
+gem 'sass-rails', '~> 5.0'
 
+gem 'byebug', group: [:development, :test]
 
-
+group :development do
+  gem 'web-console'
+  gem 'awesome_print', require: 'ap'
+  gem 'pry-rails'
+  gem 'pry-byebug' 
+  gem 'quiet_assets'
+end

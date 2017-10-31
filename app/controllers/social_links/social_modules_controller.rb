@@ -5,6 +5,7 @@ module SocialLinks
     before_action :set_social_module, only: [:index, :show, :edit, :update, :destroy]
 
     def index
+      #TODO clean all actions
     end
 
     def show
@@ -45,7 +46,8 @@ module SocialLinks
     end
 
     def social_module_params
-      params.require(:social_module).permit(links_attributes: SocialLink.attribute_names.map(&:to_sym).push(:_destroy))
+      params.require(:social_module).permit(links_attributes: Link.attribute_names.map(&:to_sym).push(:_destroy))
     end
+
   end
 end

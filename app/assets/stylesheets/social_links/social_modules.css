@@ -1,4 +1,31 @@
-/*
-  Place all the styles related to the matching controller here.
-  They will automatically be included in application.css.
-*/
+.edit_social_module {
+}
+.actions {
+  margin-top: 40px;
+}
+#social_links {
+}
+.well {
+  padding: 10px !important;
+}
+.in-upl {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8px;
+}
+.form-control  {
+  margin: 0px 15px; 
+}
+#admin-settings-content .btn-default {
+  margin-left: 15px;
+  height: 100%;
+}
+.ico-upl {
+  margin-left: 60px;
+}
+.file-upl {
+  width: 205px !important;
+  padding: 5px;
+}
+
